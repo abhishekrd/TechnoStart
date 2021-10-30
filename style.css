@@ -304,12 +304,12 @@ header.sticky{
     font-family: var(--normal-font);
     font-size: 3rem;
     color: rgb(2, 59, 133);
-    margin-left: 10rem;
+    margin-left: 5rem;
 }
 .content-para{
     font-family: var(--normal-font);
     font-size: 1.2rem;
-    margin: 1rem 10rem 1rem 10rem;
+    margin: 1rem 5rem 1rem 5rem;
 }
 .pro-title{
     font-size: 1.5rem;
@@ -329,6 +329,24 @@ header.sticky{
 .project-cards{
     display: grid;
     grid-template-columns: auto auto;
+}
+button{
+    padding: 0.5rem;
+    font-family: var(--normal-font);
+    color: white;
+    background-color: red;
+    border:0.2rem solid red;
+    margin-top: 1rem ;
+
+}
+button:hover{
+    padding: 0.5rem;
+    font-family: var(--normal-font);
+    color: white;
+    background-color: rgb(161, 4, 4);
+    border:0.2rem solid rgb(146, 4, 4);
+    margin-top: 1rem ;
+    
 }
 form{
     display: flex;
@@ -443,3 +461,4 @@ padding: 4rem;
     display: none;
 }
 }
+
