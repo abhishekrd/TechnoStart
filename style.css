@@ -82,10 +82,7 @@ header.sticky{
     margin: 0.3rem auto; 
 }
 @media screen and (max-width:768px){
-    html{
-        width: 100%;
-        margin: 0;
-    }
+  
     .hamburger{
         display: block;
         cursor: pointer;
@@ -391,14 +388,21 @@ padding: 4rem;
     display: flex;
     justify-content:center;
     align-items: center;
-    flex-direction: column;
+    flex-direction: column-reverse;
+    padding:5rem;
     
+}
+.design-img{
+    width: 15rem;
 }
 .section-head{
     font-size: 1.8rem;
 }
+.brand p{
+    font-size: 2rem;
+}
 .client-img{
-    width: 4rem;
+    width: 5rem;
 }
 .why{
     display: flex;
@@ -419,6 +423,12 @@ padding: 4rem;
     width: initial;
     padding:1rem;
 }
+.client{
+    margin:1rem;
+    padding:0;
+    background-color: white;
+   
+}
 .client-names{
     display: grid;
     justify-content: center;
@@ -430,6 +440,16 @@ padding: 4rem;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+.pro-cards{
+    box-shadow: -2px 4px 35px 0px rgba(206, 206, 206, 0.84);
+    padding: 1.5rem;
+   margin:1rem 0 1rem 0;
+    width: 20rem;
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #003ee9 0%, #80D0C7 100%);
+    border-radius: 0.8rem;
+
 }
 .service-card{
     display: flex;
@@ -493,5 +513,22 @@ padding: 4rem;
     height: 9rem;
     margin: 0.5rem;
 }
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 20rem;
+    padding: 2rem;
+    background-color: white;
 }
+input{
+    width: 15rem;
+}
+textarea{
+    width: 15rem;
+}
+}
+
+
 
